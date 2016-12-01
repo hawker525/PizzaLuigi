@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="PizzaLuigi">
+    <output-path>$PROJECT_DIR$/out/artifacts/PizzaLuigi</output-path>
+    <root id="archive" name="PizzaLuigi.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="file-copy" path="D:/Dropbox/cursus vdab/JSP_Servlets/Theorie/jstl-1.2.jar" />
+        </element>
+        <element id="directory" name="classes">
+          <element id="module-output" name="PizzaLuigi" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="PizzaLuigi/web/Web" />
+    </root>
+  </artifact>
+</component>
